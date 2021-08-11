@@ -5,7 +5,8 @@
 }
 
 body{
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  /* background-image: linear-gradient(120deg, #f6d365, #fda085); */
+  background-image: linear-gradient(120deg, #d795f5, #b864de);
   /* change this color later */
   color: white;
   font-family: 'Georama', sans-serif;
@@ -31,7 +32,7 @@ form input, form button{
 }
 
 form button{
-  color: #fda085;
+  color: #b864de;
   /* change color later */
   background: white;
   cursor: pointer;
@@ -39,7 +40,7 @@ form button{
 }
 
 form button:hover{
-  background: #fda085;
+  background: #b864de;
   color: white;
   /* mess with the colors later */
 }
@@ -71,7 +72,7 @@ form button:hover{
 }
 
 .trash-btn, .complete-btn{
-  background: #ff6f47;
+  background: #e88080;
   color: white;
   border: none;
   padding: 1rem;
@@ -80,7 +81,7 @@ form button:hover{
 }
 
 .complete-btn{
-  background: rgb(73, 204, 73);
+  background: rgb(128, 232, 168);
 }
 
 .todo-item{
@@ -116,7 +117,7 @@ select{
 }
 
 select{
-  color: #ff6f47;
+  color: #b864de;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -125,7 +126,7 @@ select{
 .select::after{
   content: "\25BC";
   position: absolute;
-  background: #ff6f47;
+  background: #b864de;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -135,5 +136,5 @@ select{
 
 .select:hover::after{
   background: white;
-  color: #ff6f47;
+  color: #b864de;
 }
